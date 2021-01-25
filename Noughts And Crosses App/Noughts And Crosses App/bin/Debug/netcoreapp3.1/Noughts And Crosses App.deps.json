@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Noughts And Crosses App/1.0.0": {
+        "runtime": {
+          "Noughts And Crosses App.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Noughts And Crosses App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

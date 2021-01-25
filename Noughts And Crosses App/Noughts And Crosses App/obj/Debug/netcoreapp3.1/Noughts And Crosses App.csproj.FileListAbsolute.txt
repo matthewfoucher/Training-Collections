@@ -1,0 +1,13 @@
+C:\Users\matt\Documents\src\Training\Collections\Noughts And Crosses App\Noughts And Crosses App\bin\Debug\netcoreapp3.1\Noughts And Crosses App.exe
+C:\Users\matt\Documents\src\Training\Collections\Noughts And Crosses App\Noughts And Crosses App\bin\Debug\netcoreapp3.1\Noughts And Crosses App.deps.json
+C:\Users\matt\Documents\src\Training\Collections\Noughts And Crosses App\Noughts And Crosses App\bin\Debug\netcoreapp3.1\Noughts And Crosses App.runtimeconfig.json
+C:\Users\matt\Documents\src\Training\Collections\Noughts And Crosses App\Noughts And Crosses App\bin\Debug\netcoreapp3.1\Noughts And Crosses App.runtimeconfig.dev.json
+C:\Users\matt\Documents\src\Training\Collections\Noughts And Crosses App\Noughts And Crosses App\bin\Debug\netcoreapp3.1\Noughts And Crosses App.dll
+C:\Users\matt\Documents\src\Training\Collections\Noughts And Crosses App\Noughts And Crosses App\bin\Debug\netcoreapp3.1\Noughts And Crosses App.pdb
+C:\Users\matt\Documents\src\Training\Collections\Noughts And Crosses App\Noughts And Crosses App\obj\Debug\netcoreapp3.1\Noughts And Crosses App.csprojAssemblyReference.cache
+C:\Users\matt\Documents\src\Training\Collections\Noughts And Crosses App\Noughts And Crosses App\obj\Debug\netcoreapp3.1\Noughts And Crosses App.AssemblyInfoInputs.cache
+C:\Users\matt\Documents\src\Training\Collections\Noughts And Crosses App\Noughts And Crosses App\obj\Debug\netcoreapp3.1\Noughts And Crosses App.AssemblyInfo.cs
+C:\Users\matt\Documents\src\Training\Collections\Noughts And Crosses App\Noughts And Crosses App\obj\Debug\netcoreapp3.1\Noughts And Crosses App.csproj.CoreCompileInputs.cache
+C:\Users\matt\Documents\src\Training\Collections\Noughts And Crosses App\Noughts And Crosses App\obj\Debug\netcoreapp3.1\Noughts And Crosses App.dll
+C:\Users\matt\Documents\src\Training\Collections\Noughts And Crosses App\Noughts And Crosses App\obj\Debug\netcoreapp3.1\Noughts And Crosses App.pdb
+C:\Users\matt\Documents\src\Training\Collections\Noughts And Crosses App\Noughts And Crosses App\obj\Debug\netcoreapp3.1\Noughts And Crosses App.genruntimeconfig.cache
