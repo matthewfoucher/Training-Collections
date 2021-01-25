@@ -31,11 +31,6 @@ namespace Collections
             return countries;
         }
 
-        public void RemoveCommaCountries(List<Country> countries)
-        {
-            countries.RemoveAll(x => x.Name.Contains(','));
-        }
-
         public Country ReadCountryFromCsvLine(string csvLine)
         {
             string[] parts = csvLine.Split(',');

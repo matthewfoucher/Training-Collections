@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Collections
 {
@@ -11,28 +12,19 @@ namespace Collections
             CsvReader reader = new CsvReader(filePath);
 
             List<Country> countries = reader.ReadAllCountries();
-            reader.RemoveCommaCountries(countries);
 
-            Console.Write("Enter no. of countries to display> ");
-            bool inputIsInt = int.TryParse(Console.ReadLine(), out int userInput);
-            if (!inputIsInt || userInput <= 0)
+            var filteredCountries = countries.Where(x => !x.Name.Contains(','));//.Take(20);
+            var filteredCountries2 = from country in countries
+                                     where !country.Name.Contains(',')
+                                     select country;
+            foreach (Country country in filteredCountries2)
             {
-                Console.WriteLine("You must type in a positive integer. Exiting");
-                return;
+                Console.WriteLine($"{PopulationFormatter.FormatPopulation(country.Population).PadLeft(15)}: {country.Name}");
             }
 
-            int maxToDisplay = userInput;
-            for (int i = 0; i < countries.Count; i++)
+            for (int i = 12; i < 14; i++)
             {
-                if (i > 0 && (i % maxToDisplay == 0))
-                {
-                    Console.WriteLine("Hit return to continue, anything else to quit>");
-                    if (Console.ReadLine() != "")
-                        break;
-                }
-
-                Country country = countries[i];
-                Console.WriteLine($"{(i+1).ToString().PadLeft(3)}: {PopulationFormatter.FormatPopulation(country.Population).PadLeft(15)}: {country.Name}");
+                Console.WriteLine(countries[i].Name);
             }
         }
     }
